@@ -1,0 +1,37 @@
+{
+  "name": "license-checker",
+  "version": "1.0.0",
+  "description": "A tool to enable the checking of license headers and clearing/inserting of them",
+  "main": "index.js",
+  "scripts": {
+    "posttest": "nyc check-coverage --lines 100 --branches 97.87 --statements 100 --functions 100",
+    "test": "nyc --reporter=html mocha"
+  },
+  "keywords": [
+    "license",
+    "check",
+    "license",
+    "header"
+  ],
+  "bin": {
+    "license-checker": "bin/server.js"
+  },
+  "dependencies": {
+    "pkg-conf": "^1.1.2"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "^2.0.1",
+    "nyc": "11.3.0",
+    "sinon": "2.3.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sqer/license-checker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sqer/license-checker/issues"
+  },
+  "author": "Tomasz Sapiński <sapinski.tomek@gmail.com> (https://github.com/sqer/)",
+  "license": "ISC"
+}
