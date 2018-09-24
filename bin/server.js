@@ -3,7 +3,7 @@ var pkgConf = require('pkg-conf'),
 	license = require('../index');
 
 var getConfigFromMainPackageJson = function () {
-	return pkgConf.sync('license-checker-config', process.cwd());
+	return pkgConf.sync('my-license-checker-config', process.cwd());
 };
 
 var start = function () {

@@ -1,22 +1,22 @@
-# license-checker
+# my-license-checker
 
-> license-checker is an npm plugin that checks whether a specified piece of text is present in files and if asked to do so inserts it.
+> my-license-checker is an npm plugin that checks whether a specified piece of text is present in files and if asked to do so inserts it.
 
 ## Install
 ```
-npm install license-checker
+npm install my-license-checker
 ```
 
 ## Usage
 
 ### Running from npm
-Add to your package.json a script for calling license-checker and also the config:
+Add to your package.json a script for calling my-license-checker and also the config:
 
 ```
 "scripts": {
-    "license": "license-checker"
+    "license": "my-license-checker"
 },
-"license-checker-config": {
+"my-license-checker-config": {
     "folder": ".",
     "license": "header.txt",
     "exact_paths_method": "INCLUDE",
@@ -47,7 +47,7 @@ It is explicitly not checking against files that have the extension .html, .txt 
 
 ## Configuring
 
-These are the options available for configuring license-checker:
+These are the options available for configuring my-license-checker:
 
 ### folder
 The folder you wish to run the tests against. Can specify an absolute or relative path. Using `.` will run against the directory the process is run from.
@@ -149,7 +149,7 @@ Specifying a format object to write at the start and end of each line of the lic
 ```
 
 ### Example formatting config
-"license-checker-config": {
+"my-license-checker-config": {
     "folder": ".",
     "license": "header.txt",
     "default_format": {"file": "second_header.txt"},

@@ -12,7 +12,7 @@ let sinon = require('sinon');
 let fs = require('fs');
 let eol = require('os').EOL;
 
-describe('license-checker', () => {
+describe('my-license-checker', () => {
 
   describe('module.exports.run', () => {
 

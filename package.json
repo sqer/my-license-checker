@@ -1,6 +1,6 @@
 {
-  "name": "license-checker",
-  "version": "1.0.0",
+  "name": "my-license-checker",
+  "version": "1.0.1",
   "description": "A tool to enable the checking of license headers and clearing/inserting of them",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "header"
   ],
   "bin": {
-    "license-checker": "bin/server.js"
+    "my-license-checker": "bin/server.js"
   },
   "dependencies": {
     "pkg-conf": "^1.1.2"
@@ -27,10 +27,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sqer/license-checker.git"
+    "url": "git+https://github.com/sqer/my-license-checker.git"
   },
   "bugs": {
-    "url": "https://github.com/sqer/license-checker/issues"
+    "url": "https://github.com/sqer/my-license-checker/issues"
   },
   "author": "Tomasz Sapiński <sapinski.tomek@gmail.com> (https://github.com/sqer/)",
   "license": "ISC"
